@@ -3,7 +3,6 @@ import { Box } from "@chakra-ui/react"
 import Menus from "./Menus"
 import HeroSection from "./HeroSection"
 import SubHero from "./SubHero"
-
 function Headers() {
   return (
     <Box>

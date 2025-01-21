@@ -4,6 +4,8 @@ import FirstRow from './HeroComponents/FirstRow'
 import SecondRow from './HeroComponents/SecondRow'
 import ThirdRow from './HeroComponents/ThirdRow'
 import ForthRow from './HeroComponents/ForthRow'
+import TopFooter from './Footer/TopFooter'
+import BottomFooter from './Footer/BottomFooter'
 
 function SubHero() {
   return (
@@ -13,6 +15,8 @@ function SubHero() {
       <SecondRow />
       <ThirdRow />
       <ForthRow />
+      <TopFooter />
+      <BottomFooter />
     </Box>
 
     </>
