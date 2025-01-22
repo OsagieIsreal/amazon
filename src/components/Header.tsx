@@ -35,7 +35,7 @@ function Headers() {
 
   </Box>
         <Menus />
-        <Outlet /><Outlet/>
+        <Outlet />
 </Box>
 
   )
