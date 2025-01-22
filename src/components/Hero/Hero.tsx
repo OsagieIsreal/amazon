@@ -9,7 +9,7 @@ function Hero() {
 return (
 <Box bg="#e2e6e6" width="100%" height="500vh">
     <Box>
-<<<<<<< HEAD
+< HEAD
       <Flex justifySelf="center"  bg="linear-gradient(to bottom, #F30083,rgba(118, 75, 162, 0) 100%);" width="95%" height="20rem" justifyContent="center">
         <Heading color="white">Just in: new gift for the holidays</Heading>
         </Flex>
