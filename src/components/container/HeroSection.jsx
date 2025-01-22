@@ -4,7 +4,7 @@ import React from 'react'
 function HeroSection() {
   return (
     <Box>
-      <Flex justifySelf="center"  bg="linear-gradient(to bottom, blue 90%, red 90%)" width="95%" height="30rem" justifyContent="center">
+      <Flex justifySelf="center" bg="linear-gradient(rgba(0,0,255,0.347)), rgba(0,23,0,0.43)"  width="95%" height="30rem" justifyContent="center">
         <Heading color="white">Just in: new gift for the holidays</Heading>
         </Flex>
     </Box>

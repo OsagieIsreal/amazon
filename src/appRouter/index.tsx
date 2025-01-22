@@ -1,8 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
-import HomePage from '@/pages/HomePage'
-import Headers from '@/components/Header'
-import AuthPage from '@/pages/AuthPage'
-
+import HomePage from '../pages/HomePage'
+import Headers from '../components/Header'
+import AuthPage from '../pages/AuthPage'
 // import { lazy } from 'react';
 
 export const appRouter = createBrowserRouter([
