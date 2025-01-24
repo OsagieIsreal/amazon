@@ -1,7 +1,7 @@
 
 import { Box, Flex, Heading, Image } from '@chakra-ui/react'
-import TumbNails from '../../assets/images/OIP.jpg'
-import BottomTN from '../../assets/images/OIPP.jpg'
+import TumbNails from '../../../assets/images/OIP.jpg'
+import BottomTN from '../../../assets/images/OIPP.jpg'
 
 
 

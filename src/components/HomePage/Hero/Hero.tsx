@@ -1,5 +1,5 @@
 import { Box, Flex, Image } from '@chakra-ui/react'
-import BackDrop from "../../assets/images/bg.jpg"
+import BackDrop from '../../../assets/images/bg.jpg'
 import FirstRow from './FirstRow'
 import SecondRow from './SecondRow'
 import ThirdRow  from './ThirdRow'
