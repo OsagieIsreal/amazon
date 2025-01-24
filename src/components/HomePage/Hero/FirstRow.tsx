@@ -7,18 +7,18 @@ import BottomTN from '../../../assets/images/OIPP.jpg'
 
 function FirstRow() {
   return (
-    <Box width="90%">
-        <Flex justifyContent="space-between" width="90%" justifySelf="center">
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">Game Assesories <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">box2 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">box3 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">box4 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
+    <Box>
+        <Flex justifyContent="space-between">
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">Game Assesories <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">box2 <Image src={TumbNails} alt="Sample Image" w="full"></Image></Box>
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">box3 <Image src={TumbNails} alt="Sample Image"  w="full"></Image></Box>
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">box4 <Image src={TumbNails} alt="Sample Image" w="full"></Image></Box>
         </Flex>
-        <Flex justifyContent="space-between" width="90%" justifySelf="center" margin="20px 20px">
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">Top catigories in kitchen applances <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">box2 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">box3 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
-            <Box bg="white" color="black" width="20%" textAlign="center" height="20rem">box4 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
+        <Flex justifyContent="space-between" width="90%" margin="20px 20px">
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">Top catigories in kitchen applances <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">box2 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">box3 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
+            <Box bg="white" color="black" width="300px" textAlign="center" height="400px">box4 <Image src={TumbNails} alt="Sample Image" objectFit="cover" w="full"></Image></Box>
         </Flex>
         <Box backgroundColor="red" width="90%" display="flex" justifySelf="center" marginBottom="10px">
                 <Heading>Most Wished For Video Games<Image src={BottomTN} alt="Sample Image"></Image></Heading>        

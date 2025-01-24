@@ -3,6 +3,7 @@ import { SearchIcon } from '@chakra-ui/icons'
 import { Link, Outlet  } from "react-router-dom";
 // import { LuSearch } from '/lu'
 import Menus from "./Menus";
+import AmazonIcon from "./icons/AmazonIcon";
 
 
 function Headers() {
@@ -10,8 +11,8 @@ function Headers() {
     
 <Box>
   <Box background="#0f1111" width="100%" padding="4" color="white">
-    <Flex position="static" float="none" flex-flow= "row nowrap" height= "60px" alignItems="center" justifyContent="space-evenly" >
-      <Box>Amazon</Box>
+    <Flex position="static" float="none" flex-flow= "row nowrap" height= "60px" alignItems="center" justifyContent="space-between" >
+      <Box><AmazonIcon /></Box>
       <Box> <Heading fontSize={8}>Deliver To Nigeria</Heading></Box>
         <InputGroup  width="30rem" paddingLeft="25px">
           <Select variant="filled" placeholder="select option" minWidth="5rem" width="5%" padding="0" borderRadius="none">

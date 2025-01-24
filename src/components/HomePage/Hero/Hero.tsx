@@ -8,7 +8,7 @@ import ForthRow  from './ForthRow'
 
 function Hero() {
 return (
-<Box bg="#e2e6e6" width="100%" h="485vh">
+<Box bg="#e2e6e6" h="485vh">
 <Box position="relative">
       {/* Image */}
       <Image
@@ -34,7 +34,7 @@ return (
 
       <Flex>
       </Flex>
-         <Box position="absolute" top="350px" width="100%" display="flex" flexDirection="column" alignItems="center" color="white">
+         <Box position="absolute" top="350px" display="flex" flexDirection="column" alignItems="center" color="white">
             <FirstRow />
             <SecondRow />
             <ThirdRow />
